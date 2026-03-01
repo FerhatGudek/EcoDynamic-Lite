@@ -16,6 +16,18 @@
 * **%60 Ortalama Risk:** Şehrin kronik kirliliğini temsil eder.
 * **%20 Zirve (Max) Risk:** Anlık trafik krizlerini temsil eder.
 * **%20 Topografik Zorluk:** Yokuşların yarattığı motor yükünü temsil eder.
+## 📊 Veri ve Analiz Görselleri
+
+### 1. Trafik Yoğunluğu (Ocak 2025)
+İstanbul'un sadece hıza odaklanan geleneksel trafik verisi:
+![İstanbul Trafik Yoğunluğu](İstanbul_Ocak_2025_Trafik.png)
+
+### 2. Emisyon Risk Haritası (Eğim + Trafik Sentezi)
+Hızın düşük, eğimin (yokuş) yüksek olduğu "gizli" emisyon odaklarını saptayan sentezlenmiş harita:
+![Emisyon Risk Haritası](Risk_Haritasi_Son.png)
+
+### 3. Veri Mimari Yapısı
+Zaman, konum (GEOHASH), araç sayısı ve rakım verilerini bir araya getiren ana veri mimarimiz:
 
 ## 👥 Ekip (Takım - 99)
 - [cite_start]**Ferhat Güdek:** Akademi Bursiyeri - Yapay Zeka[cite: 192].
