@@ -28,6 +28,23 @@ Hızın düşük, eğimin (yokuş) yüksek olduğu "gizli" emisyon odaklarını 
 
 ### 3. Veri Mimari Yapısı
 Zaman, konum (GEOHASH), araç sayısı ve rakım verilerini bir araya getiren ana veri mimarimiz:
+![Veri Yapısı](Data.png)
+
+### 4. Model Çıktısı ve Parametreler
+Random Forest Regressor algoritmamızın (MAE: 0.0236) karmaşık trafik-eğim ilişkilerini çözen parametre dökümü:
+![Model Çıktısı](output.png)
+
+## 🧠 Risk Optimizasyonu
+[cite_start]Algoritmamız, kirliliğin karakterini okumak için şu ağırlıkları kullanır[cite: 88]:
+* [cite_start]**%60 Ortalama Risk:** Şehrin kronik kirlilik alanları[cite: 82, 87].
+* [cite_start]**%20 Zirve (Max) Risk:** Anlık trafik krizleri[cite: 83, 87].
+* [cite_start]**%20 Topografik Zorluk:** Yokuşların yarattığı motor yükü[cite: 81, 87].
+
+![Risk Optimizasyonu Grafiği](Risk_Optimizasyonu.png)
+
+## 🚀 Acil Müdahale Gerektiren İlk 10 Sıcak Nokta
+Modelimiz tarafından tespit edilen, müdahale edildiğinde en yüksek çevresel faydayı (ROI) sağlayacak koordinatlar:
+![Top 10 Sıcak Nokta](Top10.png)
 
 ## 👥 Ekip (Takım - 99)
 - [cite_start]**Ferhat Güdek:** Akademi Bursiyeri - Yapay Zeka[cite: 192].
