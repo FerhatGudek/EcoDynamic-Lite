@@ -40,7 +40,7 @@ Random Forest Regressor algoritmamızın (MAE: 0.0236) karmaşık trafik-eğim i
 * [cite_start]**%20 Zirve (Max) Risk:** Anlık trafik krizleri[cite: 83, 87].
 * [cite_start]**%20 Topografik Zorluk:** Yokuşların yarattığı motor yükü[cite: 81, 87].
 
-![Risk Optimizasyonu Grafiği](Risk_Optimizasyonu.png)
+![Risk Optimizasyonu Grafiği](Rısk_Optimizasyonu.png)
 
 ## 🚀 Acil Müdahale Gerektiren İlk 10 Sıcak Nokta
 Modelimiz tarafından tespit edilen, müdahale edildiğinde en yüksek çevresel faydayı (ROI) sağlayacak koordinatlar:
