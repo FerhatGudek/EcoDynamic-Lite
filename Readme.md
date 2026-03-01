@@ -1,18 +1,18 @@
 # 🌿 Eco-Dynamic Lite: Veri Tabanlı Emisyon Risk Analizi
 
-[cite_start]İstanbul'un topografik yapısını trafik yoğunluk verileriyle sentezleyerek "sanal sensör" ağı oluşturan bir projedir[cite: 25].
+İstanbul'un topografik yapısını trafik yoğunluk verileriyle sentezleyerek "sanal sensör" ağı oluşturan bir projedir.
 
 ## 📌 Problem Tanımı
-[cite_start]İstanbul gibi yokuşlu metropollerde emisyon, sokağın topografik yapısına göre düz yola oranla %30-40 daha fazladır[cite: 18, 23]. [cite_start]Mevcut trafik verileri eğimi hesaplamazken, fiziksel sensörler yüksek maliyet nedeniyle her sokağa kurulamaz[cite: 22].
+İstanbul gibi yokuşlu metropollerde emisyon, sokağın topografik yapısına göre düz yola oranla %30-40 daha fazladır. Mevcut trafik verileri eğimi hesaplamazken, fiziksel sensörler yüksek maliyet nedeniyle her sokağa kurulamaz].
 
 ## 🚀 Teknik Yaklaşım & Veri Sentezi
-- [cite_start]**Veri Kaynakları:** İBB Açık Veri Portalı (1.7 Milyon satırlık veri) ve 3B Sayısal Yükseklik Modeli (SYM)[cite: 43, 44].
-- [cite_start]**Sentezleme:** Trafik ve SYM verileri QGIS ortamında birleştirilmiştir[cite: 50].
-- [cite_start]**Model:** Random Forest Regressor algoritması kullanılmıştır[cite: 91].
-- [cite_start]**Başarı Metriği:** Modelin Mutlak Hata Payı (MAE) **0.0236**'dır[cite: 171].
+- **Veri Kaynakları:** İBB Açık Veri Portalı (1.7 Milyon satırlık veri) ve 3B Sayısal Yükseklik Modeli (SYM).
+- **Sentezleme:** Trafik ve SYM verileri QGIS ortamında birleştirilmiştir.
+- **Model:** Random Forest Regressor algoritması kullanılmıştır.
+- **Başarı Metriği:** Modelin Mutlak Hata Payı (MAE) **0.0236**'dır.
 
 ## 🧠 Risk Optimizasyon Formülü
-[cite_start]Projemiz, kirliliği şu ağırlıklarla analiz eder[cite: 81, 82, 83, 87]:
+Projemiz, kirliliği şu ağırlıklarla analiz eder:
 * **%60 Ortalama Risk:** Şehrin kronik kirliliğini temsil eder.
 * **%20 Zirve (Max) Risk:** Anlık trafik krizlerini temsil eder.
 * **%20 Topografik Zorluk:** Yokuşların yarattığı motor yükünü temsil eder.
@@ -35,10 +35,10 @@ Random Forest Regressor algoritmamızın (MAE: 0.0236) karmaşık trafik-eğim i
 ![Model Çıktısı](output.png)
 
 ## 🧠 Risk Optimizasyonu
-[cite_start]Algoritmamız, kirliliğin karakterini okumak için şu ağırlıkları kullanır[cite: 88]:
-* [cite_start]**%60 Ortalama Risk:** Şehrin kronik kirlilik alanları[cite: 82, 87].
-* [cite_start]**%20 Zirve (Max) Risk:** Anlık trafik krizleri[cite: 83, 87].
-* [cite_start]**%20 Topografik Zorluk:** Yokuşların yarattığı motor yükü[cite: 81, 87].
+Algoritmamız, kirliliğin karakterini okumak için şu ağırlıkları kullanır:
+* **%60 Ortalama Risk:** Şehrin kronik kirlilik alanları.
+* **%20 Zirve (Max) Risk:** Anlık trafik krizleri.
+* **%20 Topografik Zorluk:** Yokuşların yarattığı motor yükü.
 
 ![Risk Optimizasyonu Grafiği](Rısk_Optimizasyonu.png)
 
@@ -47,5 +47,5 @@ Modelimiz tarafından tespit edilen, müdahale edildiğinde en yüksek çevresel
 ![Top 10 Sıcak Nokta](Top10.png)
 
 ## 👥 Ekip (Takım - 99)
-- [cite_start]**Ferhat Güdek:** Akademi Bursiyeri - Yapay Zeka[cite: 192].
-- [cite_start]**Ilım Naz Şenol:** Akademi Bursiyeri - Veri Bilimi[cite: 191].
+- **Ferhat Güdek:** Akademi Bursiyeri - Yapay Zeka.
+- **Ilım Naz Şenol:** Akademi Bursiyeri - Veri Bilimi.
